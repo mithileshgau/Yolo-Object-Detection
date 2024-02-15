@@ -11,14 +11,26 @@ Accurate identification of liver disease through automated algorithms can signif
 Renowned for its real-time capabilities, YOLO models, including YOLOv8 and YOLOv7, adopt a single-shot detection approach. By processing the entire image in a single pass, these models predict bounding box coordinates and class probabilities, making them particularly suitable for real-time applications.
 
 ## Dataset
+
+![alt text](https://github.com/mithileshgau/Yolo-Object-Detection/blob/dev/Images/Dataset.png)
 In the context of medical imaging, liver disease detection and classification present unique challenges. We utilized a carefully annotated liver disease dataset as part of the Roboflow initiative. This dataset comprises 3976 data points covering classes such as ballooning, fibrosis, inflammation, and steatosis. See Figure 1 for a snippet of the dataset.
 
 
 
 ## Metrics
+
+![alt text](https://github.com/mithileshgau/Yolo-Object-Detection/blob/dev/Images/YoloV8%20Metrics.png)
 The evaluation metrics for the YOLOv8 model on the liver disease dataset are as follows:
 
 mAP@50: 58.5%
 Precision: 57.6%
 Recall: 58.4%
 These metrics showcase the model's performance in terms of accuracy, precision, and recall in detecting and classifying liver diseases.
+
+## Evaluation Examples
+
+![alt text](https://github.com/mithileshgau/Yolo-Object-Detection/blob/dev/Images/Prediction%201.png)
+
+![alt text](https://github.com/mithileshgau/Yolo-Object-Detection/blob/dev/Images/Prediction%202.png)
+
+![alt text](https://github.com/mithileshgau/Yolo-Object-Detection/blob/dev/Images/Prediction%203.png)
